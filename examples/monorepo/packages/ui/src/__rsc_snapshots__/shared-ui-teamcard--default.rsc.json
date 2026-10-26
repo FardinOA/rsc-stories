@@ -1,0 +1,145 @@
+{
+  "props": {
+    "children": [
+      {
+        "props": {
+          "children": "Platform",
+          "style": {
+            "margin": "0 0 4px"
+          }
+        },
+        "type": "h2"
+      },
+      {
+        "props": {
+          "children": [
+            "pro",
+            " plan · ",
+            3,
+            " members"
+          ],
+          "style": {
+            "color": "#5a616b",
+            "margin": "0 0 12px"
+          }
+        },
+        "type": "p"
+      },
+      {
+        "props": {
+          "children": [
+            {
+              "key": "m1",
+              "props": {
+                "children": [
+                  "Rhea",
+                  " ",
+                  {
+                    "props": {
+                      "children": "owner",
+                      "style": {
+                        "background": "#efe9fb",
+                        "borderRadius": 999,
+                        "color": "#5b3a9e",
+                        "fontSize": 12,
+                        "fontWeight": 600,
+                        "padding": "1px 8px"
+                      }
+                    },
+                    "type": "span"
+                  }
+                ],
+                "style": {
+                  "display": "flex",
+                  "gap": 8,
+                  "padding": "4px 0"
+                }
+              },
+              "type": "li"
+            },
+            {
+              "key": "m2",
+              "props": {
+                "children": [
+                  "Ilya",
+                  " ",
+                  {
+                    "props": {
+                      "children": "admin",
+                      "style": {
+                        "background": "#e3f2f1",
+                        "borderRadius": 999,
+                        "color": "#0c6b66",
+                        "fontSize": 12,
+                        "fontWeight": 600,
+                        "padding": "1px 8px"
+                      }
+                    },
+                    "type": "span"
+                  }
+                ],
+                "style": {
+                  "display": "flex",
+                  "gap": 8,
+                  "padding": "4px 0"
+                }
+              },
+              "type": "li"
+            },
+            {
+              "key": "m3",
+              "props": {
+                "children": [
+                  "Sam",
+                  " ",
+                  {
+                    "props": {
+                      "children": "member",
+                      "style": {
+                        "background": "#eef0f2",
+                        "borderRadius": 999,
+                        "color": "#4d545d",
+                        "fontSize": 12,
+                        "fontWeight": 600,
+                        "padding": "1px 8px"
+                      }
+                    },
+                    "type": "span"
+                  }
+                ],
+                "style": {
+                  "display": "flex",
+                  "gap": 8,
+                  "padding": "4px 0"
+                }
+              },
+              "type": "li"
+            }
+          ],
+          "style": {
+            "listStyle": "none",
+            "margin": "0 0 12px",
+            "padding": 0
+          }
+        },
+        "type": "ul"
+      },
+      {
+        "props": {
+          "teamName": "Platform"
+        },
+        "type": {
+          "$client": "../../packages/ui/src/InviteButton.tsx#InviteButton"
+        }
+      }
+    ],
+    "style": {
+      "border": "1px solid #dcdfe4",
+      "borderRadius": 8,
+      "fontFamily": "system-ui, sans-serif",
+      "maxWidth": 420,
+      "padding": 16
+    }
+  },
+  "type": "section"
+}

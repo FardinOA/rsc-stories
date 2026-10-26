@@ -1,0 +1,179 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {
+              "children": [
+                {
+                  "props": {
+                    "children": [
+                      "Order ",
+                      "ord_123"
+                    ],
+                    "className": "text-lg font-semibold"
+                  },
+                  "type": "h2"
+                },
+                {
+                  "props": {
+                    "children": "shipped",
+                    "className": "text-sm capitalize text-stone-600"
+                  },
+                  "type": "span"
+                }
+              ],
+              "className": "flex items-baseline justify-between"
+            },
+            "type": "header"
+          },
+          {
+            "props": {
+              "children": [
+                "Placed ",
+                "12 Oct 2026"
+              ],
+              "className": "text-sm text-stone-600"
+            },
+            "type": "p"
+          },
+          {
+            "props": {
+              "children": [
+                {
+                  "key": "p1",
+                  "props": {
+                    "children": [
+                      {
+                        "props": {
+                          "children": [
+                            2,
+                            " × ",
+                            "Stoneware mug"
+                          ]
+                        },
+                        "type": "span"
+                      },
+                      {
+                        "props": {
+                          "children": [
+                            "$",
+                            "48.00"
+                          ],
+                          "className": "tabular-nums"
+                        },
+                        "type": "span"
+                      }
+                    ],
+                    "className": "flex justify-between py-2"
+                  },
+                  "type": "li"
+                },
+                {
+                  "key": "p4",
+                  "props": {
+                    "children": [
+                      {
+                        "props": {
+                          "children": [
+                            1,
+                            " × ",
+                            "Linen notebook"
+                          ]
+                        },
+                        "type": "span"
+                      },
+                      {
+                        "props": {
+                          "children": [
+                            "$",
+                            "18.00"
+                          ],
+                          "className": "tabular-nums"
+                        },
+                        "type": "span"
+                      }
+                    ],
+                    "className": "flex justify-between py-2"
+                  },
+                  "type": "li"
+                }
+              ],
+              "className": "divide-y divide-stone-100"
+            },
+            "type": "ul"
+          },
+          {
+            "props": {
+              "children": [
+                {
+                  "props": {
+                    "children": "Shipping"
+                  },
+                  "type": "dt"
+                },
+                {
+                  "props": {
+                    "children": {
+                      "props": {
+                        "children": [
+                          "$",
+                          "9.00"
+                        ],
+                        "className": "tabular-nums"
+                      },
+                      "type": "span"
+                    },
+                    "className": "text-right"
+                  },
+                  "type": "dd"
+                },
+                {
+                  "props": {
+                    "children": "Total",
+                    "className": "font-semibold"
+                  },
+                  "type": "dt"
+                },
+                {
+                  "props": {
+                    "children": {
+                      "props": {
+                        "children": [
+                          "$",
+                          "75.00"
+                        ],
+                        "className": "tabular-nums"
+                      },
+                      "type": "span"
+                    },
+                    "className": "text-right font-semibold"
+                  },
+                  "type": "dd"
+                }
+              ],
+              "className": "grid grid-cols-2 gap-1 text-sm"
+            },
+            "type": "dl"
+          },
+          {
+            "props": {
+              "action": {
+                "$serverAction": true
+              },
+              "orderId": "ord_123"
+            },
+            "type": {
+              "$client": "src/components/RefundButton.tsx#RefundButton"
+            }
+          }
+        ],
+        "className": "max-w-md space-y-3 rounded-xl border border-stone-200 bg-white p-5"
+      },
+      "type": "section"
+    },
+    "className": "<font-variable> font-sans"
+  },
+  "type": "div"
+}

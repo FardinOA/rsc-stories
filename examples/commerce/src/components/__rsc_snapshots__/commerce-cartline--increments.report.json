@@ -1,0 +1,34 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {
+        "initialQuantity": 2,
+        "name": "Stoneware mug",
+        "unitCents": 2400
+      },
+      "propsBytes": 61,
+      "to": "CartLine"
+    }
+  ],
+  "calls": [],
+  "clientComponents": [
+    {
+      "file": "src/components/CartLine.tsx",
+      "name": "CartLine"
+    }
+  ],
+  "clientLeaks": [
+    {
+      "component": "PriceLabel",
+      "file": "src/components/PriceLabel.tsx",
+      "kind": "inherited",
+      "reason": "inherited 'use client' from CartLine"
+    }
+  ],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "commerce-cartline--increments",
+  "warnings": []
+}

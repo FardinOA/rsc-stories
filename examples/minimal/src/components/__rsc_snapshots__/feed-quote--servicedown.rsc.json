@@ -1,0 +1,11 @@
+{
+  "props": {
+    "children": {
+      "$error": true
+    },
+    "style": {
+      "maxWidth": 640
+    }
+  },
+  "type": "div"
+}

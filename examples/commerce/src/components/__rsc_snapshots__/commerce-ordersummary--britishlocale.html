@@ -1,0 +1,37 @@
+<div class="<font-variable> font-sans">
+  <section class="max-w-md space-y-3 rounded-xl border border-stone-200 bg-white p-5">
+    <header class="flex items-baseline justify-between">
+      <h2 class="text-lg font-semibold">Order ord_123</h2>
+      <span class="text-sm capitalize text-stone-600">shipped</span>
+    </header>
+    <p class="text-sm text-stone-600">Placed 12 Oct 2026</p>
+    <ul class="divide-y divide-stone-100">
+      <li class="flex justify-between py-2">
+        <span>2 × Stoneware mug</span>
+        <span class="tabular-nums">$48.00</span>
+      </li>
+      <li class="flex justify-between py-2">
+        <span>1 × Linen notebook</span>
+        <span class="tabular-nums">$18.00</span>
+      </li>
+    </ul>
+    <dl class="grid grid-cols-2 gap-1 text-sm">
+      <dt>Shipping</dt>
+      <dd class="text-right">
+        <span class="tabular-nums">$9.00</span>
+      </dd>
+      <dt class="font-semibold">Total</dt>
+      <dd class="text-right font-semibold">
+        <span class="tabular-nums">$75.00</span>
+      </dd>
+    </dl>
+    <form action enctype="multipart/form-data" method="POST">
+      <input name="$ACTION_REF_1" type="hidden">
+      <input name="$ACTION_1:0" type="hidden" value="{&quot;id&quot;:&quot;<action-id>&quot;,&quot;bound&quot;:&quot;$@1&quot;}">
+      <input name="$ACTION_1:1" type="hidden" value="[{&quot;status&quot;:&quot;idle&quot;}]">
+      <input name="$ACTION_KEY" type="hidden" value="<action-key>">
+      <input name="orderId" type="hidden" value="ord_123">
+      <button class="rounded-lg bg-stone-900 px-4 py-2 text-white disabled:opacity-60" type="submit">Request refund</button>
+    </form>
+  </section>
+</div>

@@ -1,0 +1,481 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-25T11:15:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "date": "[Date 2026-10-24T08:00:00.000Z]",
+        "now": 1792929600000
+      },
+      "propsBytes": 57,
+      "to": "RelativeTime"
+    }
+  ],
+  "calls": [
+    {
+      "kind": "module",
+      "label": "db.posts.latest",
+      "mocked": true,
+      "status": "ok"
+    }
+  ],
+  "clientComponents": [
+    {
+      "file": "src/components/RelativeTime.tsx",
+      "name": "RelativeTime"
+    }
+  ],
+  "clientLeaks": [
+    {
+      "component": "RelativeTime",
+      "file": "src/components/RelativeTime.tsx",
+      "kind": "marked",
+      "reason": "marked 'use client' but uses no client-only APIs"
+    }
+  ],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "feed-feed--large",
+  "warnings": []
+}

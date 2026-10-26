@@ -1,0 +1,295 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {},
+            "type": {
+              "$client": "src/components/Filters.tsx#Filters"
+            }
+          },
+          {
+            "props": {
+              "children": [
+                {
+                  "key": "p1",
+                  "props": {
+                    "children": [
+                      {
+                        "props": {
+                          "children": {
+                            "props": {
+                              "alt": "",
+                              "className": "aspect-[4/3] w-full object-cover",
+                              "height": 300,
+                              "src": "/products/mug.svg",
+                              "width": 400
+                            },
+                            "type": {
+                              "$client": "next/dist/client/image-component#Image"
+                            }
+                          },
+                          "className": "block",
+                          "href": "/products/stoneware-mug"
+                        },
+                        "type": {
+                          "$client": "next/dist/client/app-dir/link#default"
+                        }
+                      },
+                      {
+                        "props": {
+                          "children": [
+                            {
+                              "props": {
+                                "children": {
+                                  "props": {
+                                    "children": "Stoneware mug",
+                                    "href": "/products/stoneware-mug"
+                                  },
+                                  "type": {
+                                    "$client": "next/dist/client/app-dir/link#default"
+                                  }
+                                },
+                                "className": "font-medium text-stone-900"
+                              },
+                              "type": "h3"
+                            },
+                            {
+                              "props": {
+                                "aria-label": "4.6 out of 5 stars",
+                                "children": [
+                                  "★★★★★",
+                                  {
+                                    "props": {
+                                      "children": "",
+                                      "className": "text-stone-300"
+                                    },
+                                    "type": "span"
+                                  }
+                                ],
+                                "className": "text-amber-600"
+                              },
+                              "type": "span"
+                            },
+                            {
+                              "props": {
+                                "children": [
+                                  {
+                                    "props": {
+                                      "children": "$24.00",
+                                      "className": "font-semibold",
+                                      "data-currency": "USD"
+                                    },
+                                    "type": "span"
+                                  },
+                                  null
+                                ],
+                                "className": "flex items-center justify-between"
+                              },
+                              "type": "div"
+                            }
+                          ],
+                          "className": "space-y-1 p-4"
+                        },
+                        "type": "div"
+                      }
+                    ],
+                    "className": "overflow-hidden rounded-xl border border-stone-200 bg-white"
+                  },
+                  "type": "article"
+                },
+                {
+                  "key": "p2",
+                  "props": {
+                    "children": [
+                      {
+                        "props": {
+                          "children": {
+                            "props": {
+                              "alt": "",
+                              "className": "aspect-[4/3] w-full object-cover",
+                              "height": 300,
+                              "src": "/products/lamp.svg",
+                              "width": 400
+                            },
+                            "type": {
+                              "$client": "next/dist/client/image-component#Image"
+                            }
+                          },
+                          "className": "block",
+                          "href": "/products/brass-desk-lamp"
+                        },
+                        "type": {
+                          "$client": "next/dist/client/app-dir/link#default"
+                        }
+                      },
+                      {
+                        "props": {
+                          "children": [
+                            {
+                              "props": {
+                                "children": {
+                                  "props": {
+                                    "children": "Brass desk lamp",
+                                    "href": "/products/brass-desk-lamp"
+                                  },
+                                  "type": {
+                                    "$client": "next/dist/client/app-dir/link#default"
+                                  }
+                                },
+                                "className": "font-medium text-stone-900"
+                              },
+                              "type": "h3"
+                            },
+                            {
+                              "props": {
+                                "aria-label": "4.2 out of 5 stars",
+                                "children": [
+                                  "★★★★",
+                                  {
+                                    "props": {
+                                      "children": "★",
+                                      "className": "text-stone-300"
+                                    },
+                                    "type": "span"
+                                  }
+                                ],
+                                "className": "text-amber-600"
+                              },
+                              "type": "span"
+                            },
+                            {
+                              "props": {
+                                "children": [
+                                  {
+                                    "props": {
+                                      "children": "$129.00",
+                                      "className": "font-semibold",
+                                      "data-currency": "USD"
+                                    },
+                                    "type": "span"
+                                  },
+                                  null
+                                ],
+                                "className": "flex items-center justify-between"
+                              },
+                              "type": "div"
+                            }
+                          ],
+                          "className": "space-y-1 p-4"
+                        },
+                        "type": "div"
+                      }
+                    ],
+                    "className": "overflow-hidden rounded-xl border border-stone-200 bg-white"
+                  },
+                  "type": "article"
+                },
+                {
+                  "key": "p3",
+                  "props": {
+                    "children": [
+                      {
+                        "props": {
+                          "children": {
+                            "props": {
+                              "alt": "",
+                              "className": "aspect-[4/3] w-full object-cover",
+                              "height": 300,
+                              "src": "/products/chair.svg",
+                              "width": 400
+                            },
+                            "type": {
+                              "$client": "next/dist/client/image-component#Image"
+                            }
+                          },
+                          "className": "block",
+                          "href": "/products/oak-chair"
+                        },
+                        "type": {
+                          "$client": "next/dist/client/app-dir/link#default"
+                        }
+                      },
+                      {
+                        "props": {
+                          "children": [
+                            {
+                              "props": {
+                                "children": {
+                                  "props": {
+                                    "children": "Oak side chair",
+                                    "href": "/products/oak-chair"
+                                  },
+                                  "type": {
+                                    "$client": "next/dist/client/app-dir/link#default"
+                                  }
+                                },
+                                "className": "font-medium text-stone-900"
+                              },
+                              "type": "h3"
+                            },
+                            {
+                              "props": {
+                                "aria-label": "4.8 out of 5 stars",
+                                "children": [
+                                  "★★★★★",
+                                  {
+                                    "props": {
+                                      "children": "",
+                                      "className": "text-stone-300"
+                                    },
+                                    "type": "span"
+                                  }
+                                ],
+                                "className": "text-amber-600"
+                              },
+                              "type": "span"
+                            },
+                            {
+                              "props": {
+                                "children": [
+                                  {
+                                    "props": {
+                                      "children": "$320.00",
+                                      "className": "font-semibold",
+                                      "data-currency": "USD"
+                                    },
+                                    "type": "span"
+                                  },
+                                  {
+                                    "props": {
+                                      "children": "Sold out",
+                                      "className": "text-sm text-stone-500"
+                                    },
+                                    "type": "span"
+                                  }
+                                ],
+                                "className": "flex items-center justify-between"
+                              },
+                              "type": "div"
+                            }
+                          ],
+                          "className": "space-y-1 p-4"
+                        },
+                        "type": "div"
+                      }
+                    ],
+                    "className": "overflow-hidden rounded-xl border border-stone-200 bg-white"
+                  },
+                  "type": "article"
+                }
+              ],
+              "className": "grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4"
+            },
+            "type": "div"
+          }
+        ],
+        "className": "space-y-4"
+      },
+      "type": "section"
+    },
+    "className": "<font-variable> font-sans"
+  },
+  "type": "div"
+}

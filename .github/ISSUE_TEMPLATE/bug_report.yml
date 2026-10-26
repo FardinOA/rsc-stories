@@ -1,0 +1,45 @@
+name: Bug report
+description: Something renders, mocks or reports differently than it should
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the report. A minimal story that reproduces the problem helps most.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: story
+    attributes:
+      label: Story (and component) that reproduces it
+      render: tsx
+    validations:
+      required: true
+  - type: textarea
+    id: doctor
+    attributes:
+      label: Output of `npx rsc-stories doctor`
+      render: text
+    validations:
+      required: true
+  - type: dropdown
+    id: bundler
+    attributes:
+      label: Bundler
+      options: [Turbopack, webpack, Both]
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options: [rsc-stories dev, rsc-stories test, rsc-stories build (static), Vitest renderStory, Playwright fixture]
+  - type: textarea
+    id: report
+    attributes:
+      label: Inspector report (Inspector → Export), if relevant
+      description: Drag the JSON file here.

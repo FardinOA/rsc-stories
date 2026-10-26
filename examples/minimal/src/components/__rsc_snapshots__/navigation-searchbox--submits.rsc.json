@@ -1,0 +1,14 @@
+{
+  "props": {
+    "children": {
+      "props": {},
+      "type": {
+        "$client": "src/components/SearchBox.tsx#SearchBox"
+      }
+    },
+    "style": {
+      "maxWidth": 640
+    }
+  },
+  "type": "div"
+}

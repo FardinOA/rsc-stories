@@ -1,0 +1,27 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {
+              "children": [
+                "Signed in as ",
+                "u1"
+              ],
+              "className": "muted"
+            },
+            "type": "p"
+          },
+          "Your settings"
+        ],
+        "className": "card column"
+      },
+      "type": "section"
+    },
+    "style": {
+      "maxWidth": 640
+    }
+  },
+  "type": "div"
+}

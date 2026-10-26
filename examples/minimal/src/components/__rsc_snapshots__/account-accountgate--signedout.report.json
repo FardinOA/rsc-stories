@@ -1,0 +1,29 @@
+{
+  "boundaries": [],
+  "calls": [
+    {
+      "kind": "next",
+      "label": "cookies()",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "redirect(/login)",
+      "mocked": true,
+      "status": "ok"
+    }
+  ],
+  "clientComponents": [],
+  "clientLeaks": [],
+  "navigation": [
+    {
+      "type": "redirect",
+      "url": "/login"
+    }
+  ],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "account-accountgate--signedout",
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {
+        "teamName": "Platform"
+      },
+      "propsBytes": 23,
+      "to": "InviteButton"
+    }
+  ],
+  "calls": [
+    {
+      "kind": "fetch",
+      "label": "GET https://internal.acme.test/teams/t1",
+      "mocked": true,
+      "status": "ok"
+    }
+  ],
+  "clientComponents": [
+    {
+      "file": "../../packages/ui/src/InviteButton.tsx",
+      "name": "InviteButton"
+    }
+  ],
+  "clientLeaks": [],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "shared-ui-teamcard--default",
+  "warnings": []
+}

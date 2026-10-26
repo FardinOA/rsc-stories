@@ -1,0 +1,32 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {
+        "teamName": "Design"
+      },
+      "propsBytes": 21,
+      "to": "InviteButton"
+    }
+  ],
+  "calls": [
+    {
+      "kind": "module",
+      "label": "getTeam",
+      "mocked": true,
+      "status": "ok"
+    }
+  ],
+  "clientComponents": [
+    {
+      "file": "../../packages/ui/src/InviteButton.tsx",
+      "name": "InviteButton"
+    }
+  ],
+  "clientLeaks": [],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "shared-ui-teamcard--mockedpackage",
+  "warnings": []
+}

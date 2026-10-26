@@ -1,0 +1,44 @@
+# Publishes a static demo workshop (examples/commerce) with the documentation under /docs to
+# GitHub Pages. Manual only: run it from the Actions tab once Pages is enabled. Static workshops
+# must be served from the root of a domain (canvases load /_next/static), so give the Pages site a
+# custom domain, or use a <owner>.github.io repository.
+name: Docs and demo
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - name: Static demo workshop
+        working-directory: examples/commerce
+        run: node ../../dist/cli.js build --out-dir ../../site
+      - run: pnpm docs:build && cp -R docs/dist site/docs
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,13 @@
+node_modules
+dist
+coverage
+playwright-report
+test-results
+**/.rsc-stories/.cache
+rsc-stories-static
+docs/dist
+*.tsbuildinfo
+.next
+.DS_Store
+site
+SRS.md

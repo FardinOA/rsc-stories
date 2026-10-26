@@ -1,0 +1,39 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {
+              "children": "Latest"
+            },
+            "type": "h2"
+          },
+          {
+            "props": {
+              "children": {
+                "$pending": true
+              },
+              "fallback": {
+                "props": {
+                  "children": "Loading posts…",
+                  "className": "muted"
+                },
+                "type": "p"
+              }
+            },
+            "type": {
+              "$symbol": "react.suspense"
+            }
+          }
+        ],
+        "className": "card column"
+      },
+      "type": "section"
+    },
+    "style": {
+      "maxWidth": 640
+    }
+  },
+  "type": "div"
+}

@@ -1,0 +1,1294 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {
+              "children": "Latest"
+            },
+            "type": "h2"
+          },
+          {
+            "props": {
+              "children": {
+                "props": {
+                  "children": [
+                    {
+                      "key": "p1",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-2",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-3",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-4",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-5",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-6",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-7",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-8",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-9",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-10",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-11",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-12",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-13",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-14",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-15",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-16",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-17",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-18",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-19",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-20",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-21",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-22",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-23",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-24",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-25",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-26",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-27",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-28",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-29",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-30",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-31",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-32",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-33",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-34",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-35",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-36",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-37",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-38",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-39",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-40",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-41",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-42",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-43",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-44",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-45",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-46",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-47",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p1-48",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Streaming means the heading never waits for the list."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-25T11:15:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "p2-49",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "children": "Suspense boundaries are where the stream can pause."
+                            },
+                            "type": "p"
+                          },
+                          {
+                            "props": {
+                              "date": {
+                                "$date": "2026-10-24T08:00:00.000Z"
+                              },
+                              "now": 1792929600000
+                            },
+                            "type": {
+                              "$client": "src/components/RelativeTime.tsx#RelativeTime"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    }
+                  ],
+                  "className": "feed"
+                },
+                "type": "ul"
+              },
+              "fallback": {
+                "props": {
+                  "children": "Loading posts…",
+                  "className": "muted"
+                },
+                "type": "p"
+              }
+            },
+            "type": {
+              "$symbol": "react.suspense"
+            }
+          }
+        ],
+        "className": "card column"
+      },
+      "type": "section"
+    },
+    "style": {
+      "maxWidth": 640
+    }
+  },
+  "type": "div"
+}

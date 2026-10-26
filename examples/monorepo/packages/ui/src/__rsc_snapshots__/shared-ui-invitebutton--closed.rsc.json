@@ -1,0 +1,16 @@
+{
+  "props": {
+    "actions": [
+      "onInvite"
+    ],
+    "args": {
+      "teamName": "Platform"
+    },
+    "component": {
+      "$client": "../../packages/ui/src/InviteButton.tsx#InviteButton"
+    }
+  },
+  "type": {
+    "$client": "rsc-stories/dist/runtime/client#ClientArgs"
+  }
+}

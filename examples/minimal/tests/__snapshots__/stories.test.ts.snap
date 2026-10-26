@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Feed > streams the list with mocked data 1`] = `
+"<div style="max-width:640px">
+  <section class="card column">
+    <h2>Latest</h2>
+    <ul class="feed">
+      <li>
+        <p>Streaming means the heading never waits for the list.</p>
+        <time datetime="2026-10-25T11:15:00.000Z">45 min ago</time>
+      </li>
+      <li>
+        <p>Suspense boundaries are where the stream can pause.</p>
+        <time datetime="2026-10-24T08:00:00.000Z">1 d ago</time>
+      </li>
+    </ul>
+  </section>
+</div>"
+`;

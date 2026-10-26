@@ -1,0 +1,18 @@
+{
+  "name": "@acme/ui",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./*": "./src/*.tsx"
+  },
+  "peerDependencies": {
+    "react": ">=19"
+  },
+  "dependencies": {
+    "@acme/data": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "rsc-stories": "workspace:*"
+  }
+}

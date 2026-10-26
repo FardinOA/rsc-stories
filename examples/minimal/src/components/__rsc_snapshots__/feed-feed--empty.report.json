@@ -1,0 +1,18 @@
+{
+  "boundaries": [],
+  "calls": [
+    {
+      "kind": "module",
+      "label": "db.posts.latest",
+      "mocked": true,
+      "status": "ok"
+    }
+  ],
+  "clientComponents": [],
+  "clientLeaks": [],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "feed-feed--empty",
+  "warnings": []
+}

@@ -1,0 +1,9 @@
+{
+  "props": {
+    "children": {
+      "$error": "RSC_STORIES_NAV;notFound;;"
+    },
+    "className": "<font-variable> font-sans"
+  },
+  "type": "div"
+}

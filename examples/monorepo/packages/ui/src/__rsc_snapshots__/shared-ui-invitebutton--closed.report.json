@@ -1,0 +1,31 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {
+        "actions": [
+          "onInvite"
+        ],
+        "args": {
+          "teamName": "Platform"
+        },
+        "component": "…"
+      },
+      "propsBytes": 73,
+      "to": "ClientArgs"
+    }
+  ],
+  "calls": [],
+  "clientComponents": [
+    {
+      "file": "../../../../dist/runtime/client.js",
+      "name": "ClientArgs"
+    }
+  ],
+  "clientLeaks": [],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "shared-ui-invitebutton--closed",
+  "warnings": []
+}

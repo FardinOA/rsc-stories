@@ -1,0 +1,177 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {},
+      "propsBytes": 0,
+      "to": "Filters"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "className": "block",
+        "href": "/products/stoneware-mug"
+      },
+      "propsBytes": 54,
+      "to": "default"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "alt": "",
+        "className": "aspect-[4/3] w-full object-cover",
+        "height": 300,
+        "src": "/products/mug.svg",
+        "width": 400
+      },
+      "propsBytes": 108,
+      "to": "Image"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "href": "/products/stoneware-mug"
+      },
+      "propsBytes": 34,
+      "to": "default"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "className": "block",
+        "href": "/products/brass-desk-lamp"
+      },
+      "propsBytes": 56,
+      "to": "default"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "alt": "",
+        "className": "aspect-[4/3] w-full object-cover",
+        "height": 300,
+        "src": "/products/lamp.svg",
+        "width": 400
+      },
+      "propsBytes": 109,
+      "to": "Image"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "href": "/products/brass-desk-lamp"
+      },
+      "propsBytes": 36,
+      "to": "default"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "className": "block",
+        "href": "/products/oak-chair"
+      },
+      "propsBytes": 50,
+      "to": "default"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "alt": "",
+        "className": "aspect-[4/3] w-full object-cover",
+        "height": 300,
+        "src": "/products/chair.svg",
+        "width": 400
+      },
+      "propsBytes": 110,
+      "to": "Image"
+    },
+    {
+      "nonSerializable": [],
+      "props": {
+        "href": "/products/oak-chair"
+      },
+      "propsBytes": 30,
+      "to": "default"
+    }
+  ],
+  "calls": [
+    {
+      "kind": "fetch",
+      "label": "GET https://api.frankfurter.app/latest?from=USD&to=EUR,GBP,JPY",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "module",
+      "label": "db.products.list",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "cookies()",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "cookies()",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "cookies()",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "cookies()",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "cookies()",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "cookies()",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "headers()",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "headers()",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "headers()",
+      "mocked": true,
+      "status": "ok"
+    }
+  ],
+  "clientComponents": [
+    {
+      "file": "src/components/Filters.tsx",
+      "name": "Filters"
+    }
+  ],
+  "clientLeaks": [],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "commerce-productgrid--slowrates",
+  "warnings": []
+}

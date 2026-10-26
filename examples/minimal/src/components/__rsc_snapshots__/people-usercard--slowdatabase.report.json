@@ -1,0 +1,41 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {
+        "follow": "[Server Action]",
+        "followers": 1815,
+        "userId": "u1"
+      },
+      "propsBytes": 48,
+      "to": "FollowButton"
+    }
+  ],
+  "calls": [
+    {
+      "kind": "module",
+      "label": "db.users.findById",
+      "mocked": true,
+      "status": "ok"
+    }
+  ],
+  "clientComponents": [
+    {
+      "file": "src/components/FollowButton.tsx",
+      "name": "FollowButton"
+    }
+  ],
+  "clientLeaks": [
+    {
+      "component": "Badge",
+      "file": "src/components/Badge.tsx",
+      "kind": "inherited",
+      "reason": "inherited 'use client' from FollowButton"
+    }
+  ],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "people-usercard--slowdatabase",
+  "warnings": []
+}

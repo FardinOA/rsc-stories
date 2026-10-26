@@ -1,0 +1,144 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    name: Lint, format, typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm format:check
+      - run: pnpm typecheck
+
+  unit:
+    name: Unit tests (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 22, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '${{ matrix.node }}', cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test:coverage
+      - if: matrix.node == 22
+        uses: actions/upload-artifact@v4
+        with: { name: coverage, path: coverage/ }
+
+  build:
+    name: Build, size, docs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - run: pnpm size
+      - run: pnpm docs:build
+      - uses: actions/upload-artifact@v4
+        with: { name: dist, path: dist/ }
+      - uses: actions/upload-artifact@v4
+        with: { name: docs, path: docs/dist/ }
+
+  e2e:
+    name: End-to-end (${{ matrix.bundler }})
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        bundler: [turbopack, webpack]
+    env:
+      RSC_STORIES_BUNDLER: ${{ matrix.bundler }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/download-artifact@v4
+        with: { name: dist, path: dist/ }
+      - run: pnpm exec playwright install --with-deps chromium
+      - name: Story tests (examples)
+        run: |
+          for dir in examples/minimal examples/commerce examples/monorepo/apps/web; do
+            (cd "$dir" && node "$GITHUB_WORKSPACE/dist/cli.js" test --browser)
+          done
+      - name: Vitest helper (minimal example)
+        run: pnpm --filter example-minimal exec vitest run
+      - name: Workshop UI
+        run: pnpm test:e2e
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with: { name: 'playwright-report-${{ matrix.bundler }}', path: 'test-results/' }
+
+  conformance:
+    name: Conformance (story output ≡ next build output)
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/download-artifact@v4
+        with: { name: dist, path: dist/ }
+      - run: pnpm test:conformance
+
+  compat:
+    name: Next.js ${{ matrix.next }} (${{ matrix.bundler }})
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        next: ['15', '16']
+        bundler: [turbopack, webpack]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/download-artifact@v4
+        with: { name: dist, path: dist/ }
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: node scripts/compat.mjs --next ${{ matrix.next }} --bundler ${{ matrix.bundler }}
+
+  bench:
+    name: Benchmark (200 stories)
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - uses: actions/download-artifact@v4
+        with: { name: dist, path: dist/ }
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: node scripts/bench.mjs --json bench.json --max-test-ms 60000
+      - run: |
+          echo '### Benchmark' >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat bench.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,39 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {
+        "action": "[Server Action]",
+        "orderId": "ord_123"
+      },
+      "propsBytes": 37,
+      "to": "RefundButton"
+    }
+  ],
+  "calls": [
+    {
+      "kind": "module",
+      "label": "db.orders.findById",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "cookies()",
+      "mocked": true,
+      "status": "ok"
+    }
+  ],
+  "clientComponents": [
+    {
+      "file": "src/components/RefundButton.tsx",
+      "name": "RefundButton"
+    }
+  ],
+  "clientLeaks": [],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "commerce-ordersummary--britishlocale",
+  "warnings": []
+}

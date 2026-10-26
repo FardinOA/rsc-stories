@@ -1,0 +1,42 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {
+              "children": "Reviews",
+              "className": "text-lg font-semibold"
+            },
+            "type": "h2"
+          },
+          {
+            "props": {
+              "children": {
+                "props": {
+                  "children": "No reviews yet.",
+                  "className": "text-stone-500"
+                },
+                "type": "p"
+              },
+              "fallback": {
+                "props": {
+                  "children": "Loading reviews…",
+                  "className": "text-stone-500"
+                },
+                "type": "p"
+              }
+            },
+            "type": {
+              "$symbol": "react.suspense"
+            }
+          }
+        ],
+        "className": "max-w-md space-y-3"
+      },
+      "type": "section"
+    },
+    "className": "<font-variable> font-sans"
+  },
+  "type": "div"
+}

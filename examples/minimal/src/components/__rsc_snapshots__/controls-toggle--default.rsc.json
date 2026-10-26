@@ -1,0 +1,24 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "actions": [
+          "onToggle"
+        ],
+        "args": {
+          "label": "Dark mode"
+        },
+        "component": {
+          "$client": "src/components/Toggle.tsx#Toggle"
+        }
+      },
+      "type": {
+        "$client": "rsc-stories/dist/runtime/client#ClientArgs"
+      }
+    },
+    "style": {
+      "maxWidth": 640
+    }
+  },
+  "type": "div"
+}

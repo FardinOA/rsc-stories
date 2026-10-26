@@ -1,0 +1,70 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {
+              "aria-hidden": "true",
+              "children": "AL",
+              "className": "avatar",
+              "style": {
+                "fontSize": 18.46153846153846,
+                "height": 48,
+                "width": 48
+              }
+            },
+            "type": "span"
+          },
+          {
+            "props": {
+              "children": [
+                {
+                  "props": {
+                    "children": "Ada Lovelace"
+                  },
+                  "type": "h2"
+                },
+                {
+                  "props": {
+                    "children": [
+                      "@",
+                      "ada"
+                    ],
+                    "className": "muted"
+                  },
+                  "type": "p"
+                },
+                {
+                  "props": {
+                    "children": "Poet of numbers."
+                  },
+                  "type": "p"
+                },
+                {
+                  "props": {
+                    "follow": {
+                      "$serverAction": true
+                    },
+                    "followers": 1815,
+                    "userId": "u1"
+                  },
+                  "type": {
+                    "$client": "src/components/FollowButton.tsx#FollowButton"
+                  }
+                }
+              ]
+            },
+            "type": "div"
+          }
+        ],
+        "className": "card"
+      },
+      "type": "article"
+    },
+    "style": {
+      "maxWidth": 640
+    }
+  },
+  "type": "div"
+}

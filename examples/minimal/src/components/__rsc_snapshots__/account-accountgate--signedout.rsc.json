@@ -1,0 +1,11 @@
+{
+  "props": {
+    "children": {
+      "$error": "RSC_STORIES_NAV;redirect;/login;"
+    },
+    "style": {
+      "maxWidth": 640
+    }
+  },
+  "type": "div"
+}

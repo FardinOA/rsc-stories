@@ -1,0 +1,16 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "initialQuantity": 2,
+        "name": "Stoneware mug",
+        "unitCents": 2400
+      },
+      "type": {
+        "$client": "src/components/CartLine.tsx#CartLine"
+      }
+    },
+    "className": "<font-variable> font-sans"
+  },
+  "type": "div"
+}

@@ -1,0 +1,26 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {
+        "current": "USD",
+        "setCurrency": "[Server Action]"
+      },
+      "propsBytes": 38,
+      "to": "CurrencySwitcher"
+    }
+  ],
+  "calls": [],
+  "clientComponents": [
+    {
+      "file": "src/components/CurrencySwitcher.tsx",
+      "name": "CurrencySwitcher"
+    }
+  ],
+  "clientLeaks": [],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "commerce-currencyswitcher--default",
+  "warnings": []
+}

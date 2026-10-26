@@ -1,0 +1,28 @@
+{
+  "name": "example-minimal",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "stories": "rsc-stories dev",
+    "test": "vitest run",
+    "stories:test": "rsc-stories test",
+    "stories:build": "rsc-stories build"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "jsdom": "^26.1.0",
+    "rsc-stories": "workspace:*",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {
+              "children": [
+                "“",
+                "Simplicity is prerequisite for reliability.",
+                "”"
+              ]
+            },
+            "type": "blockquote"
+          },
+          {
+            "props": {
+              "children": [
+                "— ",
+                "Edsger W. Dijkstra"
+              ],
+              "className": "muted"
+            },
+            "type": "figcaption"
+          }
+        ],
+        "className": "card column"
+      },
+      "type": "figure"
+    },
+    "style": {
+      "maxWidth": 640
+    }
+  },
+  "type": "div"
+}

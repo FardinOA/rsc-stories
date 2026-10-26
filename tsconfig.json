@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "noEmit": true,
+    "types": ["node"],
+    "paths": {
+      "rsc-stories": ["./src/index.ts"],
+      "rsc-stories/runtime/client": ["./src/runtime/client/index.ts"],
+      "rsc-stories/runtime/mock": ["./src/runtime/mock/index.ts"],
+      "rsc-stories/runtime/server": ["./src/runtime/server/index.ts"],
+      "rsc-stories/test": ["./src/test/index.ts"]
+    }
+  },
+  "include": ["src", "tests", "scripts", "vitest.config.ts", "tsup.config.ts", "playwright.config.ts", "e2e"]
+}

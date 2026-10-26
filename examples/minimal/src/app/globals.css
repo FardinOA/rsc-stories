@@ -1,0 +1,93 @@
+:root {
+  --ink: #1d2025;
+  --muted: #5b626c;
+  --line: #dadde2;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  color: var(--ink);
+}
+
+body {
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  max-width: 520px;
+  background: #fff;
+}
+
+.card.column {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 4px 0;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.avatar {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  border-radius: 50%;
+  background: #e8e1f7;
+  color: #4c2c8f;
+  font-weight: 600;
+}
+
+.badge {
+  margin-left: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.feed {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.feed li {
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+button {
+  font: inherit;
+  padding: 6px 12px;
+  border: 1px solid var(--ink);
+  border-radius: 6px;
+  background: var(--ink);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+}
+
+input {
+  font: inherit;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}

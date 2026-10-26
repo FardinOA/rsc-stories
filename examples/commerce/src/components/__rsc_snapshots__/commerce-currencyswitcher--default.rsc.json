@@ -1,0 +1,17 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "current": "USD",
+        "setCurrency": {
+          "$serverAction": true
+        }
+      },
+      "type": {
+        "$client": "src/components/CurrencySwitcher.tsx#CurrencySwitcher"
+      }
+    },
+    "className": "<font-variable> font-sans"
+  },
+  "type": "div"
+}

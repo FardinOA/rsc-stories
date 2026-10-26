@@ -1,0 +1,28 @@
+{
+  "boundaries": [],
+  "calls": [
+    {
+      "kind": "module",
+      "label": "db.users.findById",
+      "mocked": true,
+      "status": "ok"
+    },
+    {
+      "kind": "next",
+      "label": "notFound()",
+      "mocked": true,
+      "status": "ok"
+    }
+  ],
+  "clientComponents": [],
+  "clientLeaks": [],
+  "navigation": [
+    {
+      "type": "notFound"
+    }
+  ],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "people-usercard--unknown",
+  "warnings": []
+}

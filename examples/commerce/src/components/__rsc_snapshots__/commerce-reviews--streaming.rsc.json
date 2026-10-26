@@ -1,0 +1,121 @@
+{
+  "props": {
+    "children": {
+      "props": {
+        "children": [
+          {
+            "props": {
+              "children": "Reviews",
+              "className": "text-lg font-semibold"
+            },
+            "type": "h2"
+          },
+          {
+            "props": {
+              "children": {
+                "props": {
+                  "children": [
+                    {
+                      "key": "r1",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "aria-label": "5.0 out of 5 stars",
+                              "children": [
+                                "★★★★★",
+                                {
+                                  "props": {
+                                    "children": "",
+                                    "className": "text-stone-300"
+                                  },
+                                  "type": "span"
+                                }
+                              ],
+                              "className": "text-amber-600"
+                            },
+                            "type": "span"
+                          },
+                          " ",
+                          {
+                            "props": {
+                              "children": "Mina"
+                            },
+                            "type": "strong"
+                          },
+                          {
+                            "props": {
+                              "children": "Keeps coffee hot and feels great in the hand.",
+                              "className": "text-stone-700"
+                            },
+                            "type": "p"
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    },
+                    {
+                      "key": "r2",
+                      "props": {
+                        "children": [
+                          {
+                            "props": {
+                              "aria-label": "4.0 out of 5 stars",
+                              "children": [
+                                "★★★★",
+                                {
+                                  "props": {
+                                    "children": "★",
+                                    "className": "text-stone-300"
+                                  },
+                                  "type": "span"
+                                }
+                              ],
+                              "className": "text-amber-600"
+                            },
+                            "type": "span"
+                          },
+                          " ",
+                          {
+                            "props": {
+                              "children": "Jon"
+                            },
+                            "type": "strong"
+                          },
+                          {
+                            "props": {
+                              "children": "Lovely glaze, a little heavy.",
+                              "className": "text-stone-700"
+                            },
+                            "type": "p"
+                          }
+                        ]
+                      },
+                      "type": "li"
+                    }
+                  ],
+                  "className": "space-y-3"
+                },
+                "type": "ul"
+              },
+              "fallback": {
+                "props": {
+                  "children": "Loading reviews…",
+                  "className": "text-stone-500"
+                },
+                "type": "p"
+              }
+            },
+            "type": {
+              "$symbol": "react.suspense"
+            }
+          }
+        ],
+        "className": "max-w-md space-y-3"
+      },
+      "type": "section"
+    },
+    "className": "<font-variable> font-sans"
+  },
+  "type": "div"
+}

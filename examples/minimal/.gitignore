@@ -1,0 +1,5 @@
+node_modules
+.next
+.rsc-stories/.cache
+rsc-stories-static
+next-env.d.ts

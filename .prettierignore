@@ -1,0 +1,15 @@
+dist
+coverage
+pnpm-lock.yaml
+playwright-report
+docs/dist
+**/.rsc-stories/.cache
+**/.next
+**/__rsc_snapshots__
+SRS.md
+tests/fixtures
+**/next-env.d.ts
+.changeset/*.md
+rsc-stories-static
+test-results
+site

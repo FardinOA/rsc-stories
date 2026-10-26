@@ -1,0 +1,23 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {},
+      "propsBytes": 0,
+      "to": "SearchBox"
+    }
+  ],
+  "calls": [],
+  "clientComponents": [
+    {
+      "file": "src/components/SearchBox.tsx",
+      "name": "SearchBox"
+    }
+  ],
+  "clientLeaks": [],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "navigation-searchbox--submits",
+  "warnings": []
+}

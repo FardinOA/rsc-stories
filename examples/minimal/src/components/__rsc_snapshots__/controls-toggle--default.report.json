@@ -1,0 +1,31 @@
+{
+  "boundaries": [
+    {
+      "nonSerializable": [],
+      "props": {
+        "actions": [
+          "onToggle"
+        ],
+        "args": {
+          "label": "Dark mode"
+        },
+        "component": "…"
+      },
+      "propsBytes": 71,
+      "to": "ClientArgs"
+    }
+  ],
+  "calls": [],
+  "clientComponents": [
+    {
+      "file": "../../dist/runtime/client.js",
+      "name": "ClientArgs"
+    }
+  ],
+  "clientLeaks": [],
+  "navigation": [],
+  "nonSerializable": [],
+  "status": 200,
+  "storyId": "controls-toggle--default",
+  "warnings": []
+}
